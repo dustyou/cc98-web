@@ -1,18 +1,21 @@
 <template>
 <!--  <img alt="Vue logo" src="./assets/logo.png">-->
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <DemoTest/>
+<!--  <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+<!--  <DemoTest/>-->
+  <Index></Index>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import DemoTest from './components/DemoTest.vue'
+import Index from './components/Index.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    DemoTest
+    DemoTest,
+    Index
   }
 }
 </script>
